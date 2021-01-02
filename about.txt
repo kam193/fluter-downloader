@@ -1,4 +1,4 @@
-fluter downloader is an unoficiall tool for downloading 
+fluter. downloader is an unoficiall tool for downloading 
 "fluter - Magazin der Bundeszentrale für politische Bildung" 
 from http://fluter.de/
 
