@@ -25,7 +25,7 @@ class FluterDownloaderDialog(QDialog):
         self.label = QLabel("This plugin helps download last issues from fluter.de")
         self.l.addWidget(self.label)
 
-        self.setWindowTitle("Unoficiall fluter Downloader")
+        self.setWindowTitle("Unoficiall fluter. Downloader")
         self.setWindowIcon(icon)
 
         self.progress_bar = QProgressBar(self)
@@ -50,7 +50,7 @@ class FluterDownloaderDialog(QDialog):
 
     def about(self):
         text = get_resources("about.txt")
-        QMessageBox.about(self, "About the fluter Downloader", text.decode("utf-8"))
+        QMessageBox.about(self, "About the fluter. Downloader", text.decode("utf-8"))
 
     def config(self):
         self.do_user_config(parent=self)

@@ -14,7 +14,7 @@ class FluterDownloaderPlugin(InterfaceAction):
     )
 
     def genesis(self):
-        icon = get_icons("images/icon.png")
+        icon = get_icons("images/icons8-marker-f-100.png")
         self.qaction.setIcon(icon)
         self.qaction.triggered.connect(self.show_dialog)
 
