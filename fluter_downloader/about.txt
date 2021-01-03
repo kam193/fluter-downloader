@@ -1,9 +1,9 @@
-fluter. downloader is an unoficiall tool for downloading 
+fluter. downloader is an unofficial tool for downloading 
 "fluter - Magazin der Bundeszentrale für politische Bildung" 
 from http://fluter.de/
 
 Please note this plugin is not related in any way with fluter authors, publisher or so.
-If you have any problem, please contact with me by Github issues on https://github.com/kam193/fluter-downloader.
+If you have any problem, please contact with me by GitHub issues on https://github.com/kam193/fluter-downloader.
 
 Created by Kamil Mańkowski
 
