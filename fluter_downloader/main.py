@@ -1,11 +1,5 @@
-from PyQt5.Qt import (
-    QDialog,
-    QVBoxLayout,
-    QPushButton,
-    QMessageBox,
-    QLabel,
-    QProgressBar,
-)
+from PyQt5.Qt import (QDialog, QLabel, QMessageBox, QProgressBar, QPushButton,
+                      QVBoxLayout)
 
 from .config import prefs
 from .downloader import FluterDownloader
@@ -56,8 +50,6 @@ class FluterDownloaderDialog(QDialog):
         self.do_user_config(parent=self)
 
     def add_fluter(self):
-        from calibre.gui2 import info_dialog
-
         self.progress_bar.reset()
         self.progress_label.setText("")
 

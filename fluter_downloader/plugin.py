@@ -1,4 +1,5 @@
 from calibre.gui2.actions import InterfaceAction
+
 from .main import FluterDownloaderDialog
 
 
