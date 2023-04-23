@@ -61,4 +61,4 @@ class FluterDownloaderDialog(QDialog):
 
     def _report_progress(self, value: float, text: str):
         self.progress_label.setText(text)
-        self.progress_bar.setValue(100.0 * value)
+        self.progress_bar.setValue(int(100.0 * value))

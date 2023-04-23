@@ -6,7 +6,7 @@ class FluterDownloader(InterfaceActionBase):
     description = "Download fluter. Magazine"
     supported_platforms = ["windows", "osx", "linux"]
     author = "Kamil Mańkowski"
-    version = (0, 0, 1)
+    version = (0, 0, 2)
     minimum_calibre_version = (5, 0, 1)
 
     actual_plugin = "calibre_plugins.fluter_downloader.plugin:FluterDownloaderPlugin"
